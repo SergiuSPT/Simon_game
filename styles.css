@@ -1,0 +1,57 @@
+.body-background {
+    background-color: rgb(0, 20, 70);
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 5rem;
+}
+.right{
+    float: right;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.grid{
+    display: block;
+    width: 50%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+.grid-item{
+    margin: 25px;
+    display: inline-block;
+    border-radius: 40px;
+    border: 10px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  
+  font-weight:200;
+  font-style: normal;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
